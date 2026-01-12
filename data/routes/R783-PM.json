@@ -1,0 +1,1396 @@
+{
+  "id": "019b4a3c-ce4d-753b-b571-1e6e9951320c",
+  "route_number": "R783",
+  "name": "Panacan via Angliongto to Roxas",
+  "area": "Panacan",
+  "time_period": "PM",
+  "color": "#d98346",
+  "start_time": "16:00",
+  "end_time": "21:00",
+  "points": [
+    {
+      "id": "019b54ee-6737-75ad-b59e-18bea4c18ae6",
+      "name": "Red Cross Roxas Station",
+      "latitude": 7.0726005776619445,
+      "longitude": 125.61146655985704,
+      "kind": "stop",
+      "heading": 46.2
+    },
+    {
+      "id": "6ba9347d-04d2-4d32-b9d5-3791e275a0fd",
+      "name": "",
+      "latitude": 7.073593912673774,
+      "longitude": 125.61250877977709,
+      "kind": "waypoint",
+      "heading": 15.7
+    },
+    {
+      "id": "b2feee8d-3c14-449a-af3c-f1099ec5a0d6",
+      "name": "",
+      "latitude": 7.074892535432131,
+      "longitude": 125.61287538989926,
+      "kind": "waypoint",
+      "heading": 19.0
+    },
+    {
+      "id": "019b54ee-6738-7e8a-b454-d71419ab56c9",
+      "name": "Davao Mental Hospital Station",
+      "latitude": 7.076155100789407,
+      "longitude": 125.61331228715926,
+      "kind": "stop",
+      "heading": 67.8
+    },
+    {
+      "id": "ed81d740-2f13-48df-9a9b-3607fa49b51b",
+      "name": "",
+      "latitude": 7.076655013104868,
+      "longitude": 125.61454524817346,
+      "kind": "waypoint",
+      "heading": 86.9
+    },
+    {
+      "id": "45bdf235-733d-4241-b256-06d2030be31b",
+      "name": "",
+      "latitude": 7.076727977655651,
+      "longitude": 125.61590259221563,
+      "kind": "waypoint",
+      "heading": 86.9
+    },
+    {
+      "id": "27b00bec-a4e5-49cb-b733-281e20a57e6c",
+      "name": "",
+      "latitude": 7.076800996032975,
+      "longitude": 125.61725992780016,
+      "kind": "waypoint",
+      "heading": 86.7
+    },
+    {
+      "id": "0b4b1516-79f1-4c21-976b-70d88d487e05",
+      "name": "",
+      "latitude": 7.076878998474154,
+      "longitude": 125.61861697355201,
+      "kind": "waypoint",
+      "heading": 89.5
+    },
+    {
+      "id": "019b54ee-6739-72bc-b8ad-8f158d1fc35b",
+      "name": "Sta. Ana Sobrecarey Station",
+      "latitude": 7.076884408599184,
+      "longitude": 125.6192440762128,
+      "kind": "stop",
+      "heading": 85.3
+    },
+    {
+      "id": "3e17ca41-a054-4566-b7a4-1d166f78210c",
+      "name": "",
+      "latitude": 7.076993999638595,
+      "longitude": 125.62059899457891,
+      "kind": "waypoint",
+      "heading": 86.9
+    },
+    {
+      "id": "b7c864dc-c0f1-41c0-873f-c25f1509edab",
+      "name": "",
+      "latitude": 7.077066021168338,
+      "longitude": 125.62195639405672,
+      "kind": "waypoint",
+      "heading": 86.7
+    },
+    {
+      "id": "c4d4f03f-3b18-4c1c-9f1b-aef4a53514c1",
+      "name": "",
+      "latitude": 7.077142969133884,
+      "longitude": 125.62331350861142,
+      "kind": "waypoint",
+      "heading": 85.7
+    },
+    {
+      "id": "26e2fed0-abf7-4fb0-8c66-1753c2f50896",
+      "name": "",
+      "latitude": 7.077243002206408,
+      "longitude": 125.6246690286833,
+      "kind": "waypoint",
+      "heading": 15.5
+    },
+    {
+      "id": "79273ef4-9120-4088-8839-78aaf9e909a0",
+      "name": "",
+      "latitude": 7.078255531422321,
+      "longitude": 125.62495104685776,
+      "kind": "waypoint",
+      "heading": 355.6
+    },
+    {
+      "id": "ed0b8b35-e474-4989-89fd-796255134824",
+      "name": "",
+      "latitude": 7.079600474407185,
+      "longitude": 125.62484596108963,
+      "kind": "waypoint",
+      "heading": 354.3
+    },
+    {
+      "id": "019b54ee-673a-74c7-b89c-00ffefd8de3b",
+      "name": "Agdao Flyover Station",
+      "latitude": 7.080910296888646,
+      "longitude": 125.6247151688658,
+      "kind": "stop",
+      "heading": 357.4
+    },
+    {
+      "id": "22ccbbc3-d43d-41f7-82ad-8a38cd1753cb",
+      "name": "",
+      "latitude": 7.082251208213448,
+      "longitude": 125.62465298147252,
+      "kind": "waypoint",
+      "heading": 4.3
+    },
+    {
+      "id": "acfb6530-7029-4125-bda7-bf8d8112d540",
+      "name": "",
+      "latitude": 7.083510687804267,
+      "longitude": 125.62474866509912,
+      "kind": "waypoint",
+      "heading": 51.5
+    },
+    {
+      "id": "86080f29-ad14-48fc-9999-d421b0e70fc2",
+      "name": "",
+      "latitude": 7.084346817300562,
+      "longitude": 125.62580778190255,
+      "kind": "waypoint",
+      "heading": 50.2
+    },
+    {
+      "id": "4edf8567-0fae-46a8-aafb-ca478f8e5f40",
+      "name": "",
+      "latitude": 7.085210184273295,
+      "longitude": 125.62685222633567,
+      "kind": "waypoint",
+      "heading": 49.5
+    },
+    {
+      "id": "f42d7615-a490-47ef-bbbb-a8a31c4867fe",
+      "name": "",
+      "latitude": 7.08608639509661,
+      "longitude": 125.62788547715515,
+      "kind": "waypoint",
+      "heading": 49.9
+    },
+    {
+      "id": "a1fb84ce-ab3b-4143-bead-9fb6f698ff0c",
+      "name": "",
+      "latitude": 7.086954754818228,
+      "longitude": 125.62892569790104,
+      "kind": "waypoint",
+      "heading": 50.0
+    },
+    {
+      "id": "019b54ee-673b-7f9a-b466-a012a9b4f493",
+      "name": "Holy Cross R. Castillo Station",
+      "latitude": 7.087468892488118,
+      "longitude": 125.62954334249412,
+      "kind": "stop",
+      "heading": 49.8
+    },
+    {
+      "id": "96c36731-eec4-4cb4-a7cf-a22cd34ffd47",
+      "name": "",
+      "latitude": 7.088339943732783,
+      "longitude": 125.6305809326803,
+      "kind": "waypoint",
+      "heading": 50.2
+    },
+    {
+      "id": "8aa8f6d2-b3e0-49ca-b6b9-67a1c73b3bcb",
+      "name": "",
+      "latitude": 7.089203288915598,
+      "longitude": 125.63162535841887,
+      "kind": "waypoint",
+      "heading": 48.0
+    },
+    {
+      "id": "314eadec-f413-4575-8c31-8904344ebfc2",
+      "name": "",
+      "latitude": 7.0901057230916695,
+      "longitude": 125.63263472945738,
+      "kind": "waypoint",
+      "heading": 40.8
+    },
+    {
+      "id": "3fca2589-6ea8-407f-9d08-98c687defe60",
+      "name": "",
+      "latitude": 7.091126015057443,
+      "longitude": 125.6335220122817,
+      "kind": "waypoint",
+      "heading": 39.1
+    },
+    {
+      "id": "ab0bb4db-f8b0-46ed-835d-3f568df34903",
+      "name": "",
+      "latitude": 7.0921722083058025,
+      "longitude": 125.63438017188503,
+      "kind": "waypoint",
+      "heading": 39.2
+    },
+    {
+      "id": "cfa0ddd9-e17c-4b6f-a30a-63487de63fac",
+      "name": "",
+      "latitude": 7.093217034769785,
+      "longitude": 125.63524002848813,
+      "kind": "waypoint",
+      "heading": 39.1
+    },
+    {
+      "id": "30b62dba-8dd1-4607-87fc-184860b06838",
+      "name": "",
+      "latitude": 7.094264116474119,
+      "longitude": 125.63609709123807,
+      "kind": "waypoint",
+      "heading": 38.8
+    },
+    {
+      "id": "2dcf8d8c-d134-4849-87df-42a112bfa6da",
+      "name": "",
+      "latitude": 7.095315948881957,
+      "longitude": 125.63694795792593,
+      "kind": "waypoint",
+      "heading": 39.2
+    },
+    {
+      "id": "558a059e-40ce-446d-9f4b-2457705e3cb8",
+      "name": "",
+      "latitude": 7.096361666219714,
+      "longitude": 125.6378067258726,
+      "kind": "waypoint",
+      "heading": 41.5
+    },
+    {
+      "id": "019b54ee-673c-7b29-8d23-81671edc2613",
+      "name": "Jerome R. Castillo Station",
+      "latitude": 7.096788638646814,
+      "longitude": 125.6381880270701,
+      "kind": "stop",
+      "heading": 37.9
+    },
+    {
+      "id": "ee2f8e1c-d324-47be-a0c3-a4d615cbd9f0",
+      "name": "",
+      "latitude": 7.097852852230874,
+      "longitude": 125.63902387959553,
+      "kind": "waypoint",
+      "heading": 39.1
+    },
+    {
+      "id": "58c22b56-e366-4884-9659-9b7d41077e98",
+      "name": "",
+      "latitude": 7.098899860771848,
+      "longitude": 125.63988088397655,
+      "kind": "waypoint",
+      "heading": 39.5
+    },
+    {
+      "id": "e6eff14a-5b0d-4606-9f81-39fd50846d09",
+      "name": "",
+      "latitude": 7.099940206589397,
+      "longitude": 125.64074616600934,
+      "kind": "waypoint",
+      "heading": 38.8
+    },
+    {
+      "id": "ecdd3f6b-accb-4c30-92a2-6b440cfb27ad",
+      "name": "",
+      "latitude": 7.100990828633101,
+      "longitude": 125.64159882863311,
+      "kind": "waypoint",
+      "heading": 39.5
+    },
+    {
+      "id": "7e443c5e-032a-4877-ba98-546442e56829",
+      "name": "",
+      "latitude": 7.102031202337421,
+      "longitude": 125.64246416834794,
+      "kind": "waypoint",
+      "heading": 39.3
+    },
+    {
+      "id": "c4b5710c-f455-4323-bdc7-e8b9a9751245",
+      "name": "",
+      "latitude": 7.103075144868352,
+      "longitude": 125.64332511871157,
+      "kind": "waypoint",
+      "heading": 37.0
+    },
+    {
+      "id": "8e8e21b6-30dd-48ec-bb64-a14e8e51648c",
+      "name": "",
+      "latitude": 7.104148716401918,
+      "longitude": 125.64413977054336,
+      "kind": "waypoint",
+      "heading": 41.2
+    },
+    {
+      "id": "40fbcc5b-5f06-4064-b7cd-13a007f370e1",
+      "name": "",
+      "latitude": 7.105156846802993,
+      "longitude": 125.64502787963092,
+      "kind": "waypoint",
+      "heading": 38.8
+    },
+    {
+      "id": "95fa90cc-7f71-4e0a-a3fe-3ebc6efeec2a",
+      "name": "",
+      "latitude": 7.106208815995591,
+      "longitude": 125.64587884799636,
+      "kind": "waypoint",
+      "heading": 39.0
+    },
+    {
+      "id": "75be8932-4838-4942-b9c1-b3370ffc4f9f",
+      "name": "",
+      "latitude": 7.107257172316032,
+      "longitude": 125.64673414510823,
+      "kind": "waypoint",
+      "heading": 38.8
+    },
+    {
+      "id": "06166012-15d6-48c1-9fc5-2c3a26957bb3",
+      "name": "",
+      "latitude": 7.108307790670774,
+      "longitude": 125.64758683059175,
+      "kind": "waypoint",
+      "heading": 38.8
+    },
+    {
+      "id": "4177b098-09e0-45f6-863a-9b0714ff1924",
+      "name": "",
+      "latitude": 7.109359772542688,
+      "longitude": 125.64843781622109,
+      "kind": "waypoint",
+      "heading": 38.7
+    },
+    {
+      "id": "50ca47c2-45d5-4f13-a1e1-b5fab590b7b2",
+      "name": "",
+      "latitude": 7.1104130061594315,
+      "longitude": 125.64928700500124,
+      "kind": "waypoint",
+      "heading": 40.3
+    },
+    {
+      "id": "019b54ee-673d-7bff-a384-eb2ab667b210",
+      "name": "Nova Tierra Station",
+      "latitude": 7.110966540142101,
+      "longitude": 125.64975949711857,
+      "kind": "stop",
+      "heading": 38.2
+    },
+    {
+      "id": "7ecf7375-9c71-4140-9447-6feae3bf2cea",
+      "name": "",
+      "latitude": 7.112026031547488,
+      "longitude": 125.65060102515551,
+      "kind": "waypoint",
+      "heading": 38.8
+    },
+    {
+      "id": "0ec6be49-e1ed-41c9-af51-eae90a47ff8f",
+      "name": "",
+      "latitude": 7.113077098286403,
+      "longitude": 125.65145308101988,
+      "kind": "waypoint",
+      "heading": 39.3
+    },
+    {
+      "id": "700c7345-7ff5-4367-86f8-272e46b90282",
+      "name": "",
+      "latitude": 7.114121000640971,
+      "longitude": 125.65231400053804,
+      "kind": "waypoint",
+      "heading": 43.7
+    },
+    {
+      "id": "019b54ee-673e-73d0-b678-8e8f190eba47",
+      "name": "Dona Pilar Station",
+      "latitude": 7.114600073299528,
+      "longitude": 125.65277578335133,
+      "kind": "stop",
+      "heading": 36.6
+    },
+    {
+      "id": "18fc3567-c308-4258-9645-69c9ee2e8706",
+      "name": "",
+      "latitude": 7.115682968639505,
+      "longitude": 125.6535869743059,
+      "kind": "waypoint",
+      "heading": 37.4
+    },
+    {
+      "id": "8e033f30-882a-451b-a9f3-5f54a92f4af6",
+      "name": "",
+      "latitude": 7.116746675046783,
+      "longitude": 125.65440773799584,
+      "kind": "waypoint",
+      "heading": 43.4
+    },
+    {
+      "id": "019b54ee-673f-72ba-80d8-dbb49f9d87a8",
+      "name": "Old Airport Station",
+      "latitude": 7.1172855687914165,
+      "longitude": 125.65492043901418,
+      "kind": "stop",
+      "heading": 36.7
+    },
+    {
+      "id": "42abf84c-3056-4005-a40e-b21421b54ce0",
+      "name": "",
+      "latitude": 7.1183598561963395,
+      "longitude": 125.65572787798477,
+      "kind": "waypoint",
+      "heading": 39.1
+    },
+    {
+      "id": "b698f9d7-a3e3-4b04-b058-6f0f9bf9c023",
+      "name": "",
+      "latitude": 7.119405844864916,
+      "longitude": 125.65658587624056,
+      "kind": "waypoint",
+      "heading": 38.6
+    },
+    {
+      "id": "9f7e3f10-40f4-43d3-aa7b-b77327017ea9",
+      "name": "",
+      "latitude": 7.120459976215269,
+      "longitude": 125.65743398208217,
+      "kind": "waypoint",
+      "heading": 39.1
+    },
+    {
+      "id": "a17d64fd-6cca-42fe-b06d-6c4fb10f506e",
+      "name": "",
+      "latitude": 7.1215070596942205,
+      "longitude": 125.65829104984776,
+      "kind": "waypoint",
+      "heading": 62.4
+    },
+    {
+      "id": "019b54ee-6740-7810-9b45-0ec96e5d6b32",
+      "name": "Shell Dona Salud Station",
+      "latitude": 7.121570315311246,
+      "longitude": 125.65841323283439,
+      "kind": "stop",
+      "heading": 36.2
+    },
+    {
+      "id": "0218d7fd-6919-4b87-b7b2-f90db9ab0418",
+      "name": "",
+      "latitude": 7.122660776969806,
+      "longitude": 125.65921682365054,
+      "kind": "waypoint",
+      "heading": 38.4
+    },
+    {
+      "id": "0566045b-62a8-44d8-ad08-bd9b2a79ba59",
+      "name": "",
+      "latitude": 7.123717591843805,
+      "longitude": 125.66006166837309,
+      "kind": "waypoint",
+      "heading": 39.0
+    },
+    {
+      "id": "119e3470-cfa8-419f-b7a5-aee4b00a1498",
+      "name": "",
+      "latitude": 7.124766052780915,
+      "longitude": 125.6609170428597,
+      "kind": "waypoint",
+      "heading": 32.6
+    },
+    {
+      "id": "c28acc2f-1e48-45d1-aa3e-f49d4e4d2bd3",
+      "name": "",
+      "latitude": 7.125895625600605,
+      "longitude": 125.66164489017618,
+      "kind": "waypoint",
+      "heading": 9.0
+    },
+    {
+      "id": "019b54ee-6741-7ae0-b237-4cdb48ef7148",
+      "name": "Philippine Ports Authority Station",
+      "latitude": 7.127090366281948,
+      "longitude": 125.66183451578934,
+      "kind": "stop",
+      "heading": 357.5
+    },
+    {
+      "id": "8232b11e-3870-4902-a2fd-72ea2e1b8328",
+      "name": "",
+      "latitude": 7.128438721886599,
+      "longitude": 125.66177600575408,
+      "kind": "waypoint",
+      "heading": 358.8
+    },
+    {
+      "id": "f2b07b78-74f3-423c-9ee3-506d6e5987b8",
+      "name": "",
+      "latitude": 7.1297873932552,
+      "longitude": 125.6617469895132,
+      "kind": "waypoint",
+      "heading": 358.3
+    },
+    {
+      "id": "34cf04d9-b3c3-4913-9bb9-81762b17cdf9",
+      "name": "",
+      "latitude": 7.131135702081201,
+      "longitude": 125.66170601020495,
+      "kind": "waypoint",
+      "heading": 358.0
+    },
+    {
+      "id": "57793c70-f293-4677-a036-a3457e539209",
+      "name": "",
+      "latitude": 7.132483873494526,
+      "longitude": 125.661659004114,
+      "kind": "waypoint",
+      "heading": 358.1
+    },
+    {
+      "id": "9d669d06-72f1-4699-af35-85d89aa7a9d8",
+      "name": "",
+      "latitude": 7.133832074080921,
+      "longitude": 125.6616129973615,
+      "kind": "waypoint",
+      "heading": 3.3
+    },
+    {
+      "id": "019b54ee-6742-7a50-bcfa-f38022f70a8a",
+      "name": "Sasa Palengke Station",
+      "latitude": 7.134587751376941,
+      "longitude": 125.66165627495229,
+      "kind": "stop",
+      "heading": 355.7
+    },
+    {
+      "id": "3f2e36ff-731d-4fd2-a4bf-369e2b18b383",
+      "name": "",
+      "latitude": 7.1359346010630835,
+      "longitude": 125.66155400980992,
+      "kind": "waypoint",
+      "heading": 358.7
+    },
+    {
+      "id": "617f0604-8964-44f2-9a53-ae2d0c299000",
+      "name": "",
+      "latitude": 7.137283208619905,
+      "longitude": 125.66152199451001,
+      "kind": "waypoint",
+      "heading": 358.7
+    },
+    {
+      "id": "188fe872-6455-4a65-b2c0-82e7039e93a3",
+      "name": "",
+      "latitude": 7.13863180899005,
+      "longitude": 125.66149000647492,
+      "kind": "waypoint",
+      "heading": 358.3
+    },
+    {
+      "id": "849111b8-2fbc-4862-ad9d-b3eb2e290a26",
+      "name": "",
+      "latitude": 7.139980165495169,
+      "longitude": 125.66144899429328,
+      "kind": "waypoint",
+      "heading": 358.3
+    },
+    {
+      "id": "2b255862-961c-4525-af92-ec63970152ce",
+      "name": "",
+      "latitude": 7.141328560840078,
+      "longitude": 125.66140901254744,
+      "kind": "waypoint",
+      "heading": 358.2
+    },
+    {
+      "id": "ef64e7d7-264d-4390-b9a1-b63df5750bd9",
+      "name": "",
+      "latitude": 7.14267686422504,
+      "longitude": 125.661366,
+      "kind": "waypoint",
+      "heading": 358.1
+    },
+    {
+      "id": "ba5cba94-2514-4a1e-b499-c96ffac6b24a",
+      "name": "",
+      "latitude": 7.144025137395447,
+      "longitude": 125.661322,
+      "kind": "waypoint",
+      "heading": 357.8
+    },
+    {
+      "id": "d04d7562-6243-414c-b81f-1473823ad42a",
+      "name": "",
+      "latitude": 7.14537307469321,
+      "longitude": 125.66126999560629,
+      "kind": "waypoint",
+      "heading": 359.2
+    },
+    {
+      "id": "019b54ee-6728-7bea-942b-2beb55360ff2",
+      "name": "Davao-Samal Ferry Terminal Station",
+      "latitude": 7.146343362780669,
+      "longitude": 125.6612564624129,
+      "kind": "stop",
+      "heading": 343.5
+    },
+    {
+      "id": "ca613ce0-7e0d-42ef-a182-3a944d3466c1",
+      "name": "",
+      "latitude": 7.147643826620929,
+      "longitude": 125.66086906133138,
+      "kind": "waypoint",
+      "heading": 335.5
+    },
+    {
+      "id": "a15344b3-bca3-4b5d-a88b-87d1f1e58f8b",
+      "name": "",
+      "latitude": 7.148857044838066,
+      "longitude": 125.66031188342103,
+      "kind": "waypoint",
+      "heading": 244.7
+    },
+    {
+      "id": "019b54ee-6729-7896-8422-9901e538702e",
+      "name": "Panacan Depot Station",
+      "latitude": 7.148352496779623,
+      "longitude": 125.65923616688303,
+      "kind": "stop",
+      "heading": 222.8
+    },
+    {
+      "id": "94c2aae3-a9e1-4bad-871c-5d89f28dcad4",
+      "name": "",
+      "latitude": 7.147359965819818,
+      "longitude": 125.65831096458933,
+      "kind": "waypoint",
+      "heading": 228.3
+    },
+    {
+      "id": "e2f524ef-4072-4e78-b58d-ae22c482cdd3",
+      "name": "",
+      "latitude": 7.146467039424242,
+      "longitude": 125.6573010427096,
+      "kind": "waypoint",
+      "heading": 226.1
+    },
+    {
+      "id": "7c7101ed-085e-4832-87a2-497235936be9",
+      "name": "",
+      "latitude": 7.145531030849405,
+      "longitude": 125.65632203236278,
+      "kind": "waypoint",
+      "heading": 226.1
+    },
+    {
+      "id": "6159d2a8-2623-4b5d-981c-9335ab7b829e",
+      "name": "",
+      "latitude": 7.144596034536079,
+      "longitude": 125.65534203622666,
+      "kind": "waypoint",
+      "heading": 228.8
+    },
+    {
+      "id": "019b54ee-672a-7d06-888a-e0140171b2f9",
+      "name": "Panacan Bypass Road Station",
+      "latitude": 7.1437501392288425,
+      "longitude": 125.65436664109302,
+      "kind": "stop",
+      "heading": 223.4
+    },
+    {
+      "id": "c66142c3-23b2-4e5e-aee6-7d888b4ba89d",
+      "name": "",
+      "latitude": 7.1427699970881555,
+      "longitude": 125.653430996885,
+      "kind": "waypoint",
+      "heading": 226.1
+    },
+    {
+      "id": "5b60e218-2fe7-4786-8195-9d25877e474d",
+      "name": "",
+      "latitude": 7.141835007458021,
+      "longitude": 125.65245100772923,
+      "kind": "waypoint",
+      "heading": 226.3
+    },
+    {
+      "id": "ce515f0e-66e6-463f-95cc-2b993c54663a",
+      "name": "",
+      "latitude": 7.140903068692138,
+      "longitude": 125.65146807230751,
+      "kind": "waypoint",
+      "heading": 226.4
+    },
+    {
+      "id": "f20a70ca-c8cf-403c-8fc6-d381e7242b5a",
+      "name": "",
+      "latitude": 7.139973165820756,
+      "longitude": 125.65048317575629,
+      "kind": "waypoint",
+      "heading": 226.4
+    },
+    {
+      "id": "0c90c6c9-3002-4e65-a981-b3e9380cd349",
+      "name": "",
+      "latitude": 7.13904277462416,
+      "longitude": 125.64949875984543,
+      "kind": "waypoint",
+      "heading": 226.4
+    },
+    {
+      "id": "046a34bb-db58-4951-958d-9ad6b5e66d02",
+      "name": "",
+      "latitude": 7.138111855910709,
+      "longitude": 125.64851484895735,
+      "kind": "waypoint",
+      "heading": 226.5
+    },
+    {
+      "id": "400a92d1-6883-47de-8fe9-56f026559855",
+      "name": "",
+      "latitude": 7.1371840221125735,
+      "longitude": 125.64752802391895,
+      "kind": "waypoint",
+      "heading": 230.3
+    },
+    {
+      "id": "019b54ee-672b-7406-984f-2a7e0d0ec7d2",
+      "name": "LPU Davao Station",
+      "latitude": 7.136829103550468,
+      "longitude": 125.64709777908456,
+      "kind": "stop",
+      "heading": 224.7
+    },
+    {
+      "id": "e27589ea-33f7-443b-a5d1-970ce4736727",
+      "name": "",
+      "latitude": 7.135869576833866,
+      "longitude": 125.64614156869605,
+      "kind": "waypoint",
+      "heading": 226.0
+    },
+    {
+      "id": "645b1666-04b2-4394-a518-ba287c018790",
+      "name": "",
+      "latitude": 7.134933081176971,
+      "longitude": 125.64516308407615,
+      "kind": "waypoint",
+      "heading": 226.1
+    },
+    {
+      "id": "6d6c5bbc-3361-4ae3-a0ee-19cfadb3c7d3",
+      "name": "",
+      "latitude": 7.133997640844548,
+      "longitude": 125.64418362534143,
+      "kind": "waypoint",
+      "heading": 226.9
+    },
+    {
+      "id": "c806689d-8018-4a04-9133-15d3e2a951c3",
+      "name": "",
+      "latitude": 7.133076040044988,
+      "longitude": 125.6431910436311,
+      "kind": "waypoint",
+      "heading": 235.7
+    },
+    {
+      "id": "019b54ee-672c-72fa-a576-5fb8094154db",
+      "name": "Sta. Lucia Mall Station",
+      "latitude": 7.132809965278199,
+      "longitude": 125.64279798498205,
+      "kind": "stop",
+      "heading": 227.1
+    },
+    {
+      "id": "74658329-b7e0-4c06-8257-3ae3e9ee71fe",
+      "name": "",
+      "latitude": 7.13189314157194,
+      "longitude": 125.64180319820072,
+      "kind": "waypoint",
+      "heading": 232.9
+    },
+    {
+      "id": "03d33677-6353-4785-bf8a-f6103c68c8f2",
+      "name": "",
+      "latitude": 7.131079759166644,
+      "longitude": 125.64071867888886,
+      "kind": "waypoint",
+      "heading": 231.8
+    },
+    {
+      "id": "5fddbf6e-ee9e-4001-9aa6-a11d2eac0517",
+      "name": "",
+      "latitude": 7.13024493152079,
+      "longitude": 125.63965090993496,
+      "kind": "waypoint",
+      "heading": 232.6
+    },
+    {
+      "id": "5e40517d-ca7c-4289-8f07-441eb26f743c",
+      "name": "",
+      "latitude": 7.129425181238188,
+      "longitude": 125.63857123511981,
+      "kind": "waypoint",
+      "heading": 232.1
+    },
+    {
+      "id": "8b7ae2f0-46ae-489b-a9cf-31b242b8dcfa",
+      "name": "",
+      "latitude": 7.128596429819329,
+      "longitude": 125.63749855623678,
+      "kind": "waypoint",
+      "heading": 232.1
+    },
+    {
+      "id": "337ab4e4-9e54-458c-a520-e76ad2fded12",
+      "name": "",
+      "latitude": 7.127767828516793,
+      "longitude": 125.63642577995518,
+      "kind": "waypoint",
+      "heading": 232.0
+    },
+    {
+      "id": "f83479ad-c906-4c57-b0d6-ca36f62307e8",
+      "name": "",
+      "latitude": 7.126937983498735,
+      "longitude": 125.63535397841233,
+      "kind": "waypoint",
+      "heading": 231.9
+    },
+    {
+      "id": "56889501-b920-4c40-86ac-be801b238a0d",
+      "name": "",
+      "latitude": 7.126104896495341,
+      "longitude": 125.63428486751404,
+      "kind": "waypoint",
+      "heading": 244.2
+    },
+    {
+      "id": "019b54ee-672d-75ad-8ca2-b0ff95701ca6",
+      "name": "McDonald's Pagibig Station",
+      "latitude": 7.125931685167998,
+      "longitude": 125.63392313825193,
+      "kind": "stop",
+      "heading": 226.4
+    },
+    {
+      "id": "76bea204-d7a6-4353-87e6-86dcef732999",
+      "name": "",
+      "latitude": 7.124998811288493,
+      "longitude": 125.63293478857322,
+      "kind": "waypoint",
+      "heading": 224.2
+    },
+    {
+      "id": "317c2c37-d38b-4d9e-9407-ef7024fad8b8",
+      "name": "",
+      "latitude": 7.124031514349668,
+      "longitude": 125.6319884629147,
+      "kind": "waypoint",
+      "heading": 177.1
+    },
+    {
+      "id": "8da75a41-dcd2-4a03-aeb8-96fe4fda8bd3",
+      "name": "",
+      "latitude": 7.123083177653305,
+      "longitude": 125.63203676312892,
+      "kind": "waypoint",
+      "heading": 138.3
+    },
+    {
+      "id": "2fbd3cf6-ebaa-4eea-ab18-75cc218df9ba",
+      "name": "",
+      "latitude": 7.122082044762155,
+      "longitude": 125.63293696790637,
+      "kind": "waypoint",
+      "heading": 176.4
+    },
+    {
+      "id": "019b54ee-672e-73f9-98fc-67b32af3853e",
+      "name": "Punad Bypass Station",
+      "latitude": 7.1219558280982085,
+      "longitude": 125.63294497501374,
+      "kind": "stop",
+      "heading": 142.3
+    },
+    {
+      "id": "aad8a715-811f-4cbd-b2e0-14093c05a4fd",
+      "name": "",
+      "latitude": 7.120887856002038,
+      "longitude": 125.63377809818043,
+      "kind": "waypoint",
+      "heading": 187.2
+    },
+    {
+      "id": "f375a591-12b7-4557-b686-56f16fa36168",
+      "name": "",
+      "latitude": 7.119776865479742,
+      "longitude": 125.63363683632264,
+      "kind": "waypoint",
+      "heading": 228.3
+    },
+    {
+      "id": "99418dc2-3b84-450a-bfb8-1fcdc982a706",
+      "name": "",
+      "latitude": 7.1188788193814165,
+      "longitude": 125.63262279394218,
+      "kind": "waypoint",
+      "heading": 231.1
+    },
+    {
+      "id": "86ea08e6-3df7-4c22-85fa-57bdfa01a896",
+      "name": "",
+      "latitude": 7.118032933255343,
+      "longitude": 125.63156490922727,
+      "kind": "waypoint",
+      "heading": 187.8
+    },
+    {
+      "id": "d21eae32-837f-47d4-9bd1-b3332fcb1a3f",
+      "name": "",
+      "latitude": 7.116809246833887,
+      "longitude": 125.63139696282623,
+      "kind": "waypoint",
+      "heading": 186.6
+    },
+    {
+      "id": "301b875a-0c53-47a3-babd-16a80d5a0c8d",
+      "name": "",
+      "latitude": 7.115721801525236,
+      "longitude": 125.63127017995045,
+      "kind": "waypoint",
+      "heading": 161.0
+    },
+    {
+      "id": "26ce07f0-fb38-495f-a07b-67b2e95a2faa",
+      "name": "",
+      "latitude": 7.114477004705829,
+      "longitude": 125.63170299852102,
+      "kind": "waypoint",
+      "heading": 161.2
+    },
+    {
+      "id": "44a3d8b8-ec58-4298-a4db-962d9361cbe9",
+      "name": "",
+      "latitude": 7.113200342002521,
+      "longitude": 125.63214188725192,
+      "kind": "waypoint",
+      "heading": 173.9
+    },
+    {
+      "id": "837f65b3-22e6-431d-8950-109065a3e31c",
+      "name": "",
+      "latitude": 7.111881159404951,
+      "longitude": 125.63228502656749,
+      "kind": "waypoint",
+      "heading": 180.6
+    },
+    {
+      "id": "3d573763-854c-4aa9-a42c-a8f18c472a7b",
+      "name": "",
+      "latitude": 7.110544060064209,
+      "longitude": 125.63227199737425,
+      "kind": "waypoint",
+      "heading": 176.3
+    },
+    {
+      "id": "12759ab8-16e3-4191-a0cc-37917db3a081",
+      "name": "",
+      "latitude": 7.109197954688312,
+      "longitude": 125.63236000503464,
+      "kind": "waypoint",
+      "heading": 184.7
+    },
+    {
+      "id": "019b54ee-672f-75c2-94b4-ecef1cd1942e",
+      "name": "Angliongto Arcade Station",
+      "latitude": 7.108804137203279,
+      "longitude": 125.63232702960931,
+      "kind": "stop",
+      "heading": 173.7
+    },
+    {
+      "id": "1af45875-c5dd-4281-9a4b-7b3889e1c7e1",
+      "name": "",
+      "latitude": 7.10746199043831,
+      "longitude": 125.63247700043462,
+      "kind": "waypoint",
+      "heading": 175.8
+    },
+    {
+      "id": "efff3d2b-5ad0-4447-9167-495d305acb0f",
+      "name": "",
+      "latitude": 7.106116765254876,
+      "longitude": 125.63257702031449,
+      "kind": "waypoint",
+      "heading": 176.2
+    },
+    {
+      "id": "4a88d4b5-51c3-4333-b302-e60b91ea0c1c",
+      "name": "",
+      "latitude": 7.104770837994654,
+      "longitude": 125.6326670113027,
+      "kind": "waypoint",
+      "heading": 176.3
+    },
+    {
+      "id": "29d08c84-491d-4e30-9df5-c30676b7cda8",
+      "name": "",
+      "latitude": 7.103424645635686,
+      "longitude": 125.63275402271567,
+      "kind": "waypoint",
+      "heading": 181.5
+    },
+    {
+      "id": "019b54ee-6730-7350-9b14-ab338cb3abd0",
+      "name": "Philippine Nikkei Jin Kai Station",
+      "latitude": 7.102756091613799,
+      "longitude": 125.63273687284595,
+      "kind": "stop",
+      "heading": 173.3
+    },
+    {
+      "id": "3ca74725-996a-4840-9919-588cf4e60a53",
+      "name": "",
+      "latitude": 7.10141379320782,
+      "longitude": 125.6328950193006,
+      "kind": "waypoint",
+      "heading": 246.9
+    },
+    {
+      "id": "2eb75871-ab78-488f-8675-70511cc1b3c5",
+      "name": "",
+      "latitude": 7.100927906026709,
+      "longitude": 125.63174967109349,
+      "kind": "waypoint",
+      "heading": 253.8
+    },
+    {
+      "id": "56f52752-cdcf-44c7-808f-3c63f5d8c6a8",
+      "name": "",
+      "latitude": 7.1005511087555275,
+      "longitude": 125.63044437348937,
+      "kind": "waypoint",
+      "heading": 308.4
+    },
+    {
+      "id": "019b54ee-6731-7642-8f69-81534ea1e7ef",
+      "name": "SM Lanang Station",
+      "latitude": 7.100606686838233,
+      "longitude": 125.63037376485306,
+      "kind": "stop",
+      "heading": 250.6
+    },
+    {
+      "id": "12bcec60-f749-4ffd-8f5c-2d6d0f9f9436",
+      "name": "",
+      "latitude": 7.10015809893326,
+      "longitude": 125.62909333958173,
+      "kind": "waypoint",
+      "heading": 253.3
+    },
+    {
+      "id": "3c4efd06-9edd-4550-a50f-2bcf1897f7dd",
+      "name": "",
+      "latitude": 7.099770119033996,
+      "longitude": 125.62779138355398,
+      "kind": "waypoint",
+      "heading": 266.3
+    },
+    {
+      "id": "019b54ee-6732-7aed-87d9-a04880977386",
+      "name": "Carmelite Lanang Station",
+      "latitude": 7.099746998805202,
+      "longitude": 125.62743010225734,
+      "kind": "stop",
+      "heading": 250.1
+    },
+    {
+      "id": "a1e2769d-5145-4ed1-bb7d-46c3b90811cc",
+      "name": "",
+      "latitude": 7.099286869631766,
+      "longitude": 125.62614958716725,
+      "kind": "waypoint",
+      "heading": 253.8
+    },
+    {
+      "id": "824d83c4-2ced-448b-a65c-f1ab6953c985",
+      "name": "",
+      "latitude": 7.098910088373648,
+      "longitude": 125.62484431650097,
+      "kind": "waypoint",
+      "heading": 254.1
+    },
+    {
+      "id": "cf784442-442f-4348-9c1d-8df7d5f39033",
+      "name": "",
+      "latitude": 7.098540055368948,
+      "longitude": 125.6235371107379,
+      "kind": "waypoint",
+      "heading": 253.5
+    },
+    {
+      "id": "56c65ac1-c1be-40a4-96ac-f2c8d441a4fe",
+      "name": "",
+      "latitude": 7.098156916606898,
+      "longitude": 125.62223372003746,
+      "kind": "waypoint",
+      "heading": 253.4
+    },
+    {
+      "id": "2d9ba832-454f-472c-9466-3e0cab345a94",
+      "name": "",
+      "latitude": 7.0977719668459365,
+      "longitude": 125.62093088357527,
+      "kind": "waypoint",
+      "heading": 201.8
+    },
+    {
+      "id": "63e5cf23-be3a-497f-85ee-f7a58f7bc98a",
+      "name": "",
+      "latitude": 7.096775658845547,
+      "longitude": 125.62052910234634,
+      "kind": "waypoint",
+      "heading": 172.2
+    },
+    {
+      "id": "019b54ee-6733-79ba-91c6-e03ef8ee90dd",
+      "name": "Merco Cabaguio Station",
+      "latitude": 7.0964409116385525,
+      "longitude": 125.62057526522449,
+      "kind": "stop",
+      "heading": 158.3
+    },
+    {
+      "id": "4e3ebdbf-39da-4835-9c6f-d4037bf7eb18",
+      "name": "",
+      "latitude": 7.095185987438582,
+      "longitude": 125.62107800396676,
+      "kind": "waypoint",
+      "heading": 161.1
+    },
+    {
+      "id": "a8ad5142-d759-4717-9e7b-d77bd190d5c4",
+      "name": "",
+      "latitude": 7.093909991530088,
+      "longitude": 125.62151900301039,
+      "kind": "waypoint",
+      "heading": 160.6
+    },
+    {
+      "id": "0d0c4067-643a-4e57-a7e2-015a26808fe0",
+      "name": "",
+      "latitude": 7.0926374013770035,
+      "longitude": 125.62196987155936,
+      "kind": "waypoint",
+      "heading": 161.1
+    },
+    {
+      "id": "fd3c6941-2be9-49dd-b451-7d54a302e4bb",
+      "name": "",
+      "latitude": 7.0913608514667565,
+      "longitude": 125.62240905211694,
+      "kind": "waypoint",
+      "heading": 161.0
+    },
+    {
+      "id": "935a3bea-a09a-448b-98f9-40d279bfbabc",
+      "name": "",
+      "latitude": 7.090085139945053,
+      "longitude": 125.62285095162393,
+      "kind": "waypoint",
+      "heading": 161.1
+    },
+    {
+      "id": "aff21ecf-e69f-4307-b443-a529e25c0d18",
+      "name": "",
+      "latitude": 7.088809161742149,
+      "longitude": 125.62329194381036,
+      "kind": "waypoint",
+      "heading": 161.1
+    },
+    {
+      "id": "fa59b333-1164-4ace-970c-8480ebcf5d5d",
+      "name": "",
+      "latitude": 7.0875331506854495,
+      "longitude": 125.62373294892019,
+      "kind": "waypoint",
+      "heading": 168.4
+    },
+    {
+      "id": "019b54ee-6734-7de9-ac09-29060d3a2991",
+      "name": "Assumption College Station",
+      "latitude": 7.0868633309003854,
+      "longitude": 125.62387104510185,
+      "kind": "stop",
+      "heading": 163.7
+    },
+    {
+      "id": "328cd943-86b4-4c24-9bf1-245508a9a9cf",
+      "name": "",
+      "latitude": 7.085576905292792,
+      "longitude": 125.62424998759295,
+      "kind": "waypoint",
+      "heading": 175.7
+    },
+    {
+      "id": "b7b58f6f-0380-4579-802e-4bdec31569c0",
+      "name": "",
+      "latitude": 7.0842391525320725,
+      "longitude": 125.62435098654129,
+      "kind": "waypoint",
+      "heading": 175.0
+    },
+    {
+      "id": "90e085f6-d0fa-46f9-9349-9ab883effafc",
+      "name": "",
+      "latitude": 7.082895347507768,
+      "longitude": 125.62446996923109,
+      "kind": "waypoint",
+      "heading": 175.0
+    },
+    {
+      "id": "1c254164-f6c4-4c24-a0da-2c8f302db7f9",
+      "name": "",
+      "latitude": 7.081551551557574,
+      "longitude": 125.62458904982694,
+      "kind": "waypoint",
+      "heading": 177.6
+    },
+    {
+      "id": "019b54ee-6735-76c4-8c45-0d7a119401bc",
+      "name": "Agdao Flyover Station",
+      "latitude": 7.0808921088715095,
+      "longitude": 125.62461650081423,
+      "kind": "stop",
+      "heading": 173.1
+    },
+    {
+      "id": "47f80004-bc8c-4903-8990-b93b55b6237d",
+      "name": "",
+      "latitude": 7.079552022380576,
+      "longitude": 125.62478099794609,
+      "kind": "waypoint",
+      "heading": 175.0
+    },
+    {
+      "id": "b0d50f73-5449-4ca2-a141-db908ae7e30b",
+      "name": "",
+      "latitude": 7.078208222573993,
+      "longitude": 125.62489998075624,
+      "kind": "waypoint",
+      "heading": 198.3
+    },
+    {
+      "id": "b068b4e9-c0b3-4843-a981-02dd83f1f5f0",
+      "name": "",
+      "latitude": 7.077234995098067,
+      "longitude": 125.62457593409624,
+      "kind": "waypoint",
+      "heading": 265.8
+    },
+    {
+      "id": "6c7a6f04-7ebe-4ae5-9084-7805b724c81b",
+      "name": "",
+      "latitude": 7.077137017177401,
+      "longitude": 125.62322025766103,
+      "kind": "waypoint",
+      "heading": 266.8
+    },
+    {
+      "id": "bf27298e-7865-484b-bf5e-15fc3a2ceb98",
+      "name": "",
+      "latitude": 7.077061004692209,
+      "longitude": 125.62186308733908,
+      "kind": "waypoint",
+      "heading": 266.9
+    },
+    {
+      "id": "22879823-712a-496b-bd1c-d209c2466355",
+      "name": "",
+      "latitude": 7.076988981965321,
+      "longitude": 125.62050568767215,
+      "kind": "waypoint",
+      "heading": 267.5
+    },
+    {
+      "id": "019b54ee-6736-79c2-b61e-549dd04ad51c",
+      "name": "Sta. Ana Sobrecarey Station",
+      "latitude": 7.0769298569363315,
+      "longitude": 125.61916075914849,
+      "kind": "stop",
+      "heading": 204.1
+    },
+    {
+      "id": "245358eb-6cc1-4bef-9279-85cb8dcaf879",
+      "name": "",
+      "latitude": 7.07555046846958,
+      "longitude": 125.61853799141417,
+      "kind": "waypoint",
+      "heading": 258.5
+    },
+    {
+      "id": "2c43a141-8a29-4d34-9fcf-5b14b0b3248e",
+      "name": "",
+      "latitude": 7.075312755572822,
+      "longitude": 125.61736056795775,
+      "kind": "waypoint",
+      "heading": 252.5
+    },
+    {
+      "id": "6f8ab6ca-eb9b-4990-b7d9-41296e833dc8",
+      "name": "",
+      "latitude": 7.07494964805197,
+      "longitude": 125.61620180454568,
+      "kind": "waypoint",
+      "heading": 265.7
+    },
+    {
+      "id": "9dc79392-2315-4380-aec6-f0cbb8b75311",
+      "name": "",
+      "latitude": 7.074848640431705,
+      "longitude": 125.61484643414956,
+      "kind": "waypoint",
+      "heading": 266.8
+    },
+    {
+      "id": "46325c35-b119-4f69-9756-bc41a27810dd",
+      "name": "",
+      "latitude": 7.074772616621521,
+      "longitude": 125.61348926300384,
+      "kind": "waypoint",
+      "heading": 230.6
+    },
+    {
+      "id": "dae044e9-14ec-4490-8118-41a0e3482c94",
+      "name": "",
+      "latitude": 7.0740764541285435,
+      "longitude": 125.61263669990485,
+      "kind": "waypoint",
+      "heading": 244.8
+    },
+    {
+      "id": "0dd8dc72-11fb-4ea9-a597-83c1767965c3",
+      "name": "",
+      "latitude": 7.0735695287020866,
+      "longitude": 125.61155123347316,
+      "kind": "waypoint",
+      "heading": 185.0
+    },
+    {
+      "id": "c5e0323e-4214-4bdb-8113-9eaf5b561da7",
+      "name": "Red Cross Roxas Station",
+      "latitude": 7.0726005776619445,
+      "longitude": 125.61146655985704,
+      "kind": "stop",
+      "heading": 0.0
+    }
+  ]
+}
