@@ -1,5 +1,5 @@
-import { db } from "@/lib/db/db"
 import { sql } from "drizzle-orm"
+import { db } from "../db"
 
 export type DirectRouteGeometryMatch = {
   route_id: string
@@ -7,10 +7,11 @@ export type DirectRouteGeometryMatch = {
   name: string
   time_period: string
   color: string
-  start_time:string
+  start_time: string
   end_time: string
   origin_sequence: number
   destination_sequence: number
+  direction: "forward" | "reverse"
 }
 
 export async function findDirectRoutesByGeometry(
@@ -74,11 +75,15 @@ export async function findDirectRoutesByGeometry(
       r.start_time,
       r.end_time,
       o.sequence     AS origin_sequence,
-      d.sequence     AS destination_sequence
+      d.sequence     AS destination_sequence,
+      CASE 
+        WHEN o.sequence < d.sequence THEN 'forward'
+        ELSE 'reverse'
+      END AS direction
     FROM routes r
     JOIN ranked_origin o ON r.id = o.route_id
     JOIN ranked_destination d ON r.id = d.route_id
-    WHERE o.sequence < d.sequence
+    WHERE o.sequence <> d.sequence
     ORDER BY r.route_number;
   `)
 }

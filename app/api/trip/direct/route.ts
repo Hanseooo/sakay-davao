@@ -56,6 +56,9 @@ export async function POST(req: Request) {
       routes.map(async (r) => {
         const geometry = await getRouteGeometry(r.route_id)
 
+        const orderedGeometry = r.direction === "forward" ? geometry : [...geometry].reverse()
+
+
         return {
           routeId: r.route_id,
           routeNumber: r.route_number,
@@ -64,7 +67,7 @@ export async function POST(req: Request) {
           color: r.color,
           startTime: r.start_time,
           endTime: r.end_time,
-          geometry,
+          geometry: orderedGeometry,
         }
       })
     )
