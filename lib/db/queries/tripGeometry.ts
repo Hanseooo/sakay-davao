@@ -5,7 +5,10 @@ export type DirectRouteGeometryMatch = {
   route_id: string
   route_number: string
   name: string
+  time_period: string
   color: string
+  start_time:string
+  end_time: string
   origin_sequence: number
   destination_sequence: number
 }
@@ -30,7 +33,7 @@ export async function findDirectRoutesByGeometry(
       WHERE ST_DWithin(
         rp.geom,
         ST_SetSRID(ST_MakePoint(${originLng}, ${originLat}), 4326)::geography,
-        400
+        500
       )
     ),
     destination_hits AS (
@@ -45,7 +48,7 @@ export async function findDirectRoutesByGeometry(
       WHERE ST_DWithin(
         rp.geom,
         ST_SetSRID(ST_MakePoint(${destinationLng}, ${destinationLat}), 4326)::geography,
-        400
+        500
       )
     ),
     ranked_origin AS (
@@ -66,7 +69,10 @@ export async function findDirectRoutesByGeometry(
       r.id           AS route_id,
       r.route_number AS route_number,
       r.name,
+      r.time_period,
       r.color,
+      r.start_time,
+      r.end_time,
       o.sequence     AS origin_sequence,
       d.sequence     AS destination_sequence
     FROM routes r

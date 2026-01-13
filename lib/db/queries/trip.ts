@@ -5,7 +5,10 @@ export type DirectRouteMatch = {
   route_id: string
   route_number: string
   name: string
+  time_period: string
   color: string
+  start_time: string
+  end_time: string
   origin_stop_id: string
   destination_stop_id: string
   origin_sequence: number
@@ -27,7 +30,10 @@ export async function findDirectRoutes(
       r.id           AS route_id,
       r.route_number AS route_number,
       r.name,
+      r.time_period,
       r.color,
+      r.start_time,
+      r.end_time,
       rs1.stop_id    AS origin_stop_id,
       rs2.stop_id    AS destination_stop_id,
       rs1.sequence   AS origin_sequence,

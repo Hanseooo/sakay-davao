@@ -7,7 +7,10 @@ export type MapRouteData = {
   routeId: string
   routeNumber: string
   name: string
+  timePeriod: string
   color: string
+  startTime: string
+  endTime: string
   geometry: [number, number][]
 }
 
@@ -29,7 +32,7 @@ export function RouteRenderer({
         <MapRoute
           key={index}
           coordinates={route.geometry}
-          color={index === 0 ? "#6366f1" : "#94a3b8"}
+          color={route.color}
           width={index === 0 ? 6 : 5}
           opacity={index === 0 ? 1 : 0.6}
         />

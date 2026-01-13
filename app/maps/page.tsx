@@ -5,8 +5,10 @@ import { SakayMap, PlacementMode, LngLat } from "@/components/map/SakayMap";
 import { PlannerControls } from "@/components/map/PlannerControls";
 import { MapRouteData } from "@/components/map/RouteRenderer";
 import { api } from "@/lib/api/client";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { formatTo12Hour } from "@/lib/utils/time";
 
-export default function PlannerPage() {
+export default function MapPage() {
   const [mode, setMode] = useState<PlacementMode>("none");
   const [origin, setOrigin] = useState<LngLat | null>(null);
   const [destination, setDestination] = useState<LngLat | null>(null);
@@ -15,6 +17,7 @@ export default function PlannerPage() {
   const [error, setError] = useState<string | null>(null);
   const [originStop, setOriginStop] = useState<LngLat | null>(null)
   const [destinationStop, setDestinationStop] = useState<LngLat | null>(null)
+  const [routeDialogOpen, setRouteDialogOpen] = useState(false)
 
 
     async function findDirectRoute() {
@@ -43,6 +46,7 @@ export default function PlannerPage() {
         }
 
         setRoutes(data.routes)
+        setRouteDialogOpen(true)
 
         setOriginStop({
             lat: data.originStop.lat,
@@ -86,6 +90,43 @@ export default function PlannerPage() {
         isLoading={isLoading}
         error={error}
     />
+
+    <Dialog open={routeDialogOpen} onOpenChange={setRouteDialogOpen}>
+        <DialogContent className="max-w-md">
+            <DialogHeader>
+            <DialogTitle>Routes Found</DialogTitle>
+            <DialogDescription>
+                {routes.length === 0
+                ? "No direct routes were found between these stops."
+                : `${routes.length} route(s) available.`}
+            </DialogDescription>
+            </DialogHeader>
+
+            <div className="space-y-2">
+            {routes.map((r) => {
+                const startHour = formatTo12Hour(r.startTime)
+                const endHour = formatTo12Hour(r.endTime)
+                return (
+                    <div
+                    key={r.routeId}
+                    className="p-3 border rounded flex justify-between items-center"
+                    >
+                        <div>
+                            <div className="font-medium">{r.routeNumber}</div>
+                            <div className="text-sm text-muted-foreground">{r.name}</div>
+                            <div className="text-sm text-muted-foreground">{startHour}{r.timePeriod} - {endHour}{r.timePeriod}</div>
+                        </div>
+                        <div
+                            className="w-4 h-4 rounded-full"
+                            style={{ backgroundColor: r.color }}
+                        />
+                    </div>
+                )
+            })}
+            </div>
+        </DialogContent>
+    </Dialog>
+
 
     </div>
   );

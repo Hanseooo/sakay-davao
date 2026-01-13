@@ -60,7 +60,10 @@ export async function POST(req: Request) {
           routeId: r.route_id,
           routeNumber: r.route_number,
           name: r.name,
+          timePeriod: r.time_period,
           color: r.color,
+          startTime: r.start_time,
+          endTime: r.end_time,
           geometry,
         }
       })

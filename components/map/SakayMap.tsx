@@ -59,10 +59,11 @@ export function SakayMap({
       )}
 
       <MapControls
-      position="bottom-right"
-      showFullscreen
-      showCompass
-      showLocate
+        position="top-right"
+        showFullscreen
+        showCompass
+        showLocate
+        onLocate={() => console.log("hello")}
       />
 
       <RouteRenderer origin={origin} destination={destination} routes={routes} />
