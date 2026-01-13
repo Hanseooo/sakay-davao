@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server"
 import { z } from "zod"
 import { getNearbyStops } from "@/lib/db/queries/stops"
-import { findDirectRoutes } from "@/lib/db/queries/trip"
+import { getRouteGeometry } from "@/lib/db/queries/routeGeometry"
+import { findDirectRoutesByGeometry } from "@/lib/db/queries/tripGeometry"
 
 const bodySchema = z.object({
   origin: z.object({
@@ -28,10 +29,9 @@ export async function POST(req: Request) {
 
     const { origin, destination } = parsed.data
 
-    // 1. Snap to nearest stops
     const [originStops, destinationStops] = await Promise.all([
-      getNearbyStops(origin.lat, origin.lng, 300),
-      getNearbyStops(destination.lat, destination.lng, 300),
+      getNearbyStops(origin.lat, origin.lng, 1000),
+      getNearbyStops(destination.lat, destination.lng, 1000),
     ])
 
     if (!originStops.length || !destinationStops.length) {
@@ -44,13 +44,32 @@ export async function POST(req: Request) {
     const originStop = originStops[0]
     const destinationStop = destinationStops[0]
 
-    // 2. Find direct routes
-    const routes = await findDirectRoutes(originStop.id, destinationStop.id)
+    const routes = await findDirectRoutesByGeometry(
+        origin.lat,
+        origin.lng,
+        destination.lat,
+        destination.lng
+    )
+
+
+    const routesWithGeometry = await Promise.all(
+      routes.map(async (r) => {
+        const geometry = await getRouteGeometry(r.route_id)
+
+        return {
+          routeId: r.route_id,
+          routeNumber: r.route_number,
+          name: r.name,
+          color: r.color,
+          geometry,
+        }
+      })
+    )
 
     return NextResponse.json({
       originStop,
       destinationStop,
-      routes,
+      routes: routesWithGeometry,
     })
   } catch (err) {
     console.error("POST /api/trip/direct failed:", err)
@@ -60,3 +79,4 @@ export async function POST(req: Request) {
     )
   }
 }
+

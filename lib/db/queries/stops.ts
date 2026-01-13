@@ -5,7 +5,11 @@ export type NearbyStop = {
   id: string
   name: string
   distance: number
+  lat: number
+  lng: number
 }
+
+
 
 /**
  * Finds nearby stops using PostGIS.
@@ -19,14 +23,6 @@ export async function getNearbyStops(
   lng: number,
   radius: number
 ): Promise<NearbyStop[]> {
-  /**
-   * We use raw SQL here because:
-   * - Drizzle does not yet have high-level helpers for PostGIS
-   * - Spatial queries are much clearer in SQL
-   * - This is still safe because we use parameter binding
-   *
-   * This is NOT bad practice. It is normal when using GIS.
-   */
   const result = await db.execute<NearbyStop>(sql`
     SELECT
       id,
@@ -34,7 +30,9 @@ export async function getNearbyStops(
       ST_Distance(
         geom,
         ST_SetSRID(ST_MakePoint(${lng}, ${lat}), 4326)::geography
-      ) AS distance
+      ) AS distance,
+      ST_Y(geom::geometry) AS lat,
+      ST_X(geom::geometry) AS lng
     FROM stops
     WHERE ST_DWithin(
       geom,
@@ -42,8 +40,11 @@ export async function getNearbyStops(
       ${radius}
     )
     ORDER BY distance
-    LIMIT 15;
+    LIMIT 1;
   `)
 
   return result
 }
+
+
+

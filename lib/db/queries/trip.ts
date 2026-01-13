@@ -16,6 +16,12 @@ export async function findDirectRoutes(
   originStopId: string,
   destinationStopId: string
 ): Promise<DirectRouteMatch[]> {
+
+    if (originStopId === destinationStopId) {
+        return []
+    }
+
+
   const result = await db.execute<DirectRouteMatch>(sql`
     SELECT
       r.id           AS route_id,
