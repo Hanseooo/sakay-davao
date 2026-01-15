@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { SakayMap, PlacementMode, LngLat } from "@/components/map/SakayMap";
-import { PlannerControls } from "@/components/map/PlannerControls";
+import { MapControls } from "@/components/map/MapControls";
 import { MapRouteData } from "@/components/map/RouteRenderer";
 import { api } from "@/lib/api/client";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
@@ -81,7 +81,7 @@ export default function MapPage() {
         destinationStop={destinationStop}
       />
 
-    <PlannerControls
+    <MapControls
         mode={mode}
         setMode={setMode}
         origin={origin}
@@ -102,7 +102,7 @@ export default function MapPage() {
             </DialogDescription>
             </DialogHeader>
 
-            <div className="space-y-2">
+            <div className="space-y-2 overflow-auto max-h-98">
             {routes.map((r) => {
                 const startHour = formatTo12Hour(r.startTime)
                 const endHour = formatTo12Hour(r.endTime)

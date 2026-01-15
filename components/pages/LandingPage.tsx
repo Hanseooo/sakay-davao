@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation"
 import { MapIcon, ArrowRight } from "lucide-react"
 import About from "../sections/About"
 import { Button } from "@/components/ui/button"
+import Footer from "../layout/Footer"
 
 export default function LandingPage() {
   const router = useRouter()
@@ -53,11 +54,7 @@ export default function LandingPage() {
         </div>
       </main>
 
-      <footer className="w-full py-8 mt-12 text-center border-t border-border/40">
-        <p className="text-xs text-muted-foreground tracking-widest uppercase">
-          Sakay Davao &bull; 2026
-        </p>
-      </footer>
+      <Footer />
     </div>
   )
 }

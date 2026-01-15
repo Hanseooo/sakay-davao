@@ -20,15 +20,15 @@ export default function About() {
       icon: <Route className="w-6 h-6 text-blue-500" />,
       features: ["Route highlighting", "Stop visualization", "Interactive list"]
     },
+    // {
+    //   title: "Nearby Stops",
+    //   description: "Instantly find the closest bus stops using your device's GPS location or a custom search radius.",
+    //   icon: <MapPin className="w-6 h-6 text-red-500" />,
+    //   features: ["Live GPS sorting", "Radius selection", "Stop details"]
+    // },
     {
-      title: "Nearby Stops",
-      description: "Instantly find the closest bus stops using your device's GPS location or a custom search radius.",
-      icon: <MapPin className="w-6 h-6 text-red-500" />,
-      features: ["Live GPS sorting", "Radius selection", "Stop details"]
-    },
-    {
-      title: "Direct Routes", // Renamed from "Trip Planner"
-      description: "Check if a single bus line directly connects your origin and destination without transfers.",
+      title: "Find Routes", 
+      description: "Check if a single bus line directly connects your origin and destination.",
       icon: <Navigation2 className="w-6 h-6 text-green-500" />,
       features: ["Zero-transfer check", "Origin-Destination match", "Route snapping"]
     }
@@ -43,7 +43,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {modes.map((mode, index) => (
           <Card key={index} className="flex flex-col h-full border-none shadow-lg bg-secondary/20 hover:bg-secondary/30 transition-all duration-300">
             <CardHeader>

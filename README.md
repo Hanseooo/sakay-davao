@@ -4,9 +4,41 @@
 
 SakayDavao is a public transportation routing system built with a strong focus on geospatial accuracy, clean architecture, and long-term scalability. This backend implementation follows established industry best practices while remaining lightweight and maintainable.
 
+---
+
+## Frontend Architecture
+
+The frontend is a fully client-driven map explorer built with React and Next.js (App Router). It integrates geospatial data with an interactive map to allow users to explore bus routes and stops.
+
+### Frontend Tech Stack
+
+| Layer         | Technology                   | Purpose                                           |
+|:------------- |:---------------------------- |:------------------------------------------------ |
+| Framework     | Next.js (App Router)          | Client & server components, routing             |
+| State         | Zustand                       | Centralized store for routes, stops, geometry  |
+| Map UI        | MapLibre GL / mapcn          | Map rendering, route visualization, markers    |
+| UI Components | ShadCN / Radix UI             | Dialogs, toggles, buttons, cards               |
+| HTTP Client   | Axios / API wrapper           | Fetches routes, stops, and geometry endpoints |
+
+---
+
+### Route Explorer Store
+
+The store manages:
+
+- `routes` — metadata for all bus routes
+- `selectedRoutes` — toggled route IDs
+- `geometries` — polyline coordinates for each route
+- `stops` — origin and destination stops for each route
+- `fetch` functions — lazy-load routes, geometry, and stops
+
+```ts
+const { routes, selectedRoutes, geometries, stops, fetchRoutes } = useRouteExplorerStore()
+```
+
 ## Backend Architecture
 
-### Technology Stack
+### Backend Tech Stack
 
 | Layer       | Technology                      | Description                          |
 |:----------- |:--------------------------------|:------------------------------------|

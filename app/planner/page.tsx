@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { SakayMap, PlacementMode, LngLat } from "@/components/map/SakayMap";
-import { PlannerControls } from "@/components/map/PlannerControls";
+import { PlannerControls } from "@/components/map/MapControls";
 import { MapRouteData } from "@/components/map/RouteRenderer";
 import { api } from "@/lib/api/client";
 
