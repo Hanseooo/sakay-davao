@@ -15,9 +15,9 @@ type StopRow = {
 
 export async function GET(
   _: Request,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ) {
-  const routeId = params.id
+  const routeId = (await context.params).id
 
   // 1. Get min/max sequence
   const seqResult = await db.execute(sql<SeqResult>`

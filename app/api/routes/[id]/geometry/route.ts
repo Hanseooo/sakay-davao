@@ -19,24 +19,30 @@ function isLineString(obj: unknown): obj is GeoJSONLineString {
 
 export async function GET(
   _: Request,
-  { params }: { params: { id: string } } // required
+  context: { params: Promise<{ id: string }> }
 ) {
-  const routeId = params.id;
+  const routeId = (await context.params).id;
 
   try {
     const result = await db.execute<GeometryRow>(sql`
-      SELECT ST_AsGeoJSON(geom) AS geojson
-      FROM routes
-      WHERE id = ${routeId}
+      SELECT ST_AsGeoJSON(
+        ST_MakeLine(geom::geometry ORDER BY sequence)
+      ) AS geojson
+      FROM route_points
+      WHERE route_id = ${routeId}
     `);
 
+
     if (!result.length || !result[0].geojson) {
-      return NextResponse.json({ error: "Route not found" }, { status: 404 });
+      return NextResponse.json({ error: "Route geometry not found" }, { status: 404 });
     }
 
     let parsed: unknown;
-    try { parsed = JSON.parse(result[0].geojson); } 
-    catch { return NextResponse.json({ error: "Failed to parse geometry" }, { status: 500 }); }
+    try {
+      parsed = JSON.parse(result[0].geojson);
+    } catch {
+      return NextResponse.json({ error: "Failed to parse geometry" }, { status: 500 });
+    }
 
     if (!isLineString(parsed)) {
       return NextResponse.json({ error: "Invalid geometry format" }, { status: 500 });
@@ -48,3 +54,4 @@ export async function GET(
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
+
