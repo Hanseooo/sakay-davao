@@ -10,6 +10,7 @@ export default function RoutesFinder({
   onFindRoute,
   isLoading,
   error,
+  clearDirectRoute
 }: FinderProps) {
 
     return(
@@ -39,6 +40,10 @@ export default function RoutesFinder({
             >
             {isLoading ? "Finding route..." : "Find Direct Route"}
             </Button>
+
+            <Button
+            variant="secondary"
+            onClick={() => clearDirectRoute()}>Clear Route</Button>
 
             {error && (
                 <p className="text-xs text-destructive text-center">{error}</p>

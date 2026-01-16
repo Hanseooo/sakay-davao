@@ -66,6 +66,15 @@ export default function MapPage() {
         }
     }
 
+    function clearDirectRoute() {
+        setMode("none")
+        setOrigin(null)
+        setDestination(null)
+        setRoutes([])
+        setOriginStop(null)
+        setDestinationStop(null)
+    }
+
 
   return (
     <div className="h-screen w-screen relative">
@@ -89,6 +98,7 @@ export default function MapPage() {
         onFindRoute={findDirectRoute}
         isLoading={isLoading}
         error={error}
+        clearDirectRoute={clearDirectRoute}
     />
 
     <Dialog open={routeDialogOpen} onOpenChange={setRouteDialogOpen}>

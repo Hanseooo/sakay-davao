@@ -63,7 +63,7 @@ export function SakayMap({
         </MapMarker>
       )}
 
-        {selectedRoutes.map((routeId) => {
+    {selectedRoutes.map((routeId) => {
     const geometry = geometries[routeId]
     const route = routeMeta.find((r) => r.id === routeId)
     const stop = stops[routeId]
@@ -101,7 +101,7 @@ export function SakayMap({
         showFullscreen
         showCompass
         showLocate
-        onLocate={() => console.log("hello")}
+        onLocate={() => console.log("highlight nearest stop soon?")}
       />
 
       <RouteRenderer origin={origin} destination={destination} routes={routes} />

@@ -13,7 +13,7 @@ export function RoutesExplorer() {
     routes,
     selectedRoutes,
     fetchRoutes,
-    toggleRoute,
+
     fetchRouteGeometry,
     fetchRouteStops,
   } = useRouteExplorerStore()
@@ -22,13 +22,12 @@ export function RoutesExplorer() {
     fetchRoutes()
   }, [fetchRoutes])
 
-  async function onToggle(routeId: string) {
-    toggleRoute(routeId)
-    await fetchRouteGeometry(routeId)
-    await fetchRouteStops(routeId)
-  }
-
-  const gridCols = routes.length > 1 ? "grid-cols-2" : "grid-cols-1"
+  useEffect(() => {
+    selectedRoutes.forEach((routeId) => {
+      fetchRouteGeometry(routeId)
+      fetchRouteStops(routeId)
+    })
+  }, [selectedRoutes, fetchRouteGeometry, fetchRouteStops])
 
   return (
     <div className="space-y-2 flex flex-col">
@@ -39,17 +38,22 @@ export function RoutesExplorer() {
         </DialogTrigger>
         <DialogContent className="max-w-lg">
             <DialogHeader><DialogTitle>Select Routes</DialogTitle></DialogHeader>
-            <ToggleGroup type="multiple" className="flex flex-wrap gap-2 items-center justify-center">
-                {routes.map((route) => (
-                <ToggleGroupItem
-                    key={route.id}
-                    value={route.id}
-                    onClick={() => onToggle(route.id)}
-                >
-                    {route.routeNumber} ({route.timePeriod})
-                </ToggleGroupItem>
-                ))}
-        </ToggleGroup>
+<ToggleGroup
+  type="multiple"
+  value={selectedRoutes}
+  onValueChange={(values) =>
+    useRouteExplorerStore.setState({ selectedRoutes: values })
+  }
+  className="flex flex-wrap gap-2"
+>
+  {routes.map((route) => (
+    <ToggleGroupItem key={route.id} value={route.id}>
+      {route.routeNumber} ({route.timePeriod})
+    </ToggleGroupItem>
+  ))}
+</ToggleGroup>
+
+
         </DialogContent>
       </Dialog>
 
