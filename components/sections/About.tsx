@@ -39,7 +39,7 @@ export default function About() {
       <div className="text-center space-y-4">
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">How it Works</h2>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-          Sakay Davao simplifies your commute by organizing routes into three focused modes.
+          Sakay Davao simplifies your commute by organizing routes into two focused modes.
         </p>
       </div>
 
@@ -72,7 +72,7 @@ export default function About() {
         <div className="space-y-1">
           <p className="font-medium text-blue-900 dark:text-blue-100">Official Data Notice</p>
           <p className="text-sm text-muted-foreground leading-relaxed">
-            This guide utilizes the Davao Interim Bus Service (HPBS) data. Please note that routes and stops may be subject to change due to ongoing roadworks or city ordinances.
+            This guide utilizes the Davao Interim Bus Service (HPBS) data. Please note that routes and stops may be subject to change. <a rel="noopener noreferrer" target="_blank" href="https://github.com/ttg-eng/routes" className="underline ">Click to view data source</a>
           </p>
         </div>
       </div>

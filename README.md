@@ -200,7 +200,7 @@ lib/api/
 ## Data Source
 
 Route geometry and stop data are derived from the  
-[ttg-eng/routes](https://github.com/ttg-eng/routes/tree/main) repository.
+[ttg-eng/routes](https://github.com/ttg-eng/routes) repository.
 
 This dataset is used as the foundational source for:
 

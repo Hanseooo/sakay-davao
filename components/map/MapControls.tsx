@@ -31,7 +31,7 @@ export function MapControls({
 
   return (
 <div className="absolute bottom-4 left-1/2 z-10 w-[95%] max-w-md -translate-x-1/2">
-  <div className="rounded-lg border h-60 bg-background/95 backdrop-blur shadow-sm">
+  <div className="rounded-lg border h-fit min-h-60 bg-background/95 backdrop-blur shadow-sm">
     <Tabs defaultValue="explorer" className="w-full">
       <TabsList
         className="
